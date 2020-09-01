@@ -6,6 +6,12 @@ K Bluetooth Nordic nRF52
 F http://cdn.lairdtech.com/home/brandworld/files/Datasheet%20-%20BL652.pdf
 $ENDCMP
 #
+$CMP BLK-MD-SPK-B
+D A2DP, AVRCP Bluetooth module based on OVC3860 chip
+K A2DP, AVRCP, bluetooth
+F datasheet/BLK-MD-SPK-B_Technical_Manual.pdf
+$ENDCMP
+#
 $CMP BTM112
 D Bluetooth SPP Module, UART, Class 2
 K Bluetooth BT SPP Module
@@ -18,16 +24,34 @@ K Bluetooth BT SPP Module
 F https://www.tme.eu/de/Document/b90358c53cd65c9b10d2914f55812666/btm222_datasheet.pdf
 $ENDCMP
 #
+$CMP F-3188_CSR8645
+D AD2P bluetooth 4.0 module based on CSR8645 chip with APTX
+K HFPV1.6, A2DPV1.2, AVRCPV1.4 , HSPV1.2, CSR8645, APTX
+F datasheet/F-3188_CSR8645_bluetooth/CSR8645_datasheet.pdf
+$ENDCMP
+#
+$CMP F-6188
+D F-6188 A2DP, AVRCP Bluetooth 2.1+ EDR module based on BK8000L chip
+K A2DP, AVRCP Bluetooth
+F datasheet/F-6188_BK8000L/F-6188-BK8000L-eng.pdf
+$ENDCMP
+#
+$CMP F-6888
+D F-6888 A2DP, AVRCP Bluetooth V4.1 module based on BK3254 chip
+K A2DP, AVRCP, bluetooth
+F datasheet/F-6888_bk3254/F-6888_BK3254_datasheet.pdf
+$ENDCMP
+#
+$CMP MB-CM15113
+D Bluetooth a2dp receiver module
+K bluetooth, a2dp, hsp, hfp avrcp
+F datasheet/MB-CM15113_Manual.pdf
+$ENDCMP
+#
 $CMP MOD-nRF8001
 D Bluetooth Low Energy module based on nRF8001 chipset
 K Bluetooth Low Energy nRF8001
 F https://www.olimex.com/Products/Modules/RF/MOD-nRF8001/
-$ENDCMP
-#
-$CMP nRF8001
-D BLE LE Connectivity IC, QFN-32
-K BLE, bluetooth
-F https://www.nordicsemi.com/eng/nordic/content_download/2981/38488/file/nRF8001_PS_v1.3.pdf
 $ENDCMP
 #
 $CMP RFD77101
@@ -54,6 +78,16 @@ K Bluetooth Low Energy 4.2 Module
 F http://ww1.microchip.com/downloads/en/DeviceDoc/50002489A.pdf
 $ENDCMP
 #
+$CMP S3860M-S
+D Bluetooth a2dp receiver module based on OVC3860 chip
+K bluetooth, a2dp, hsp, hfp avrcp,OVC3860
+$ENDCMP
+#
+$CMP SOYO-BT24G03
+D Bluetooth Audio Module Supports BT call/FM Radio,HFP/HSP,OPP,A2DP/AVRCP,PBAP
+K bluetooth, a2dp, hsp, hfp, avrcp, MP3, WMA, WAV, SBC ,FM Radio Tuner ,Micro SD Controller ,USB(Slave)
+$ENDCMP
+#
 $CMP SPBTLE-RF
 D Very Low Power network processor module for BLE v4.1, Hub capabilities
 K BLE bluetooth module low-power
@@ -64,6 +98,12 @@ $CMP SPBTLE-RF0
 D Very Low Power network processor module for BLE v4.1
 K BLE bluetooth module low-power
 F http://www.st.com/resource/en/datasheet/spbtle-rf0.pdf
+$ENDCMP
+#
+$CMP nRF8001
+D BLE LE Connectivity IC, QFN-32
+K BLE, bluetooth
+F https://www.nordicsemi.com/eng/nordic/content_download/2981/38488/file/nRF8001_PS_v1.3.pdf
 $ENDCMP
 #
 #End Doc Library
