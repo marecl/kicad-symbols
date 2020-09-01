@@ -3180,6 +3180,60 @@ K smps buck boost inverting
 F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
 $ENDCMP
 #
+$CMP MCP1603BT-180IOS
+D 2.7-5.5Vin, 500mA, 2MHz Synchronous Buck Regulator, Fixed 1.8V or Regulated 0.8-4.5V Output, PWM Only, TSOT-25
+K buck pwm regulator switching
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22042B.pdf
+$ENDCMP
+#
+$CMP MCP1603BT-330IOS
+D 2.7-5.5Vin, 500mA, 2MHz Synchronous Buck Regulator, Fixed 3.3V or Regulated 0.8-4.5V Output, PWM Only, TSOT-25
+K buck pwm regulator switching
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22042B.pdf
+$ENDCMP
+#
+$CMP MCP1603BT-ADJIOS
+D 2.7-5.5Vin, 500mA, 2MHz Synchronous Buck Regulator, Regulated 0.8-4.5V Output, PWM Only, TSOT-25
+K buck pwm regulator switching
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22042B.pdf
+$ENDCMP
+#
+$CMP MCP1603LT-120IOS
+D 2.7-5.5Vin, 500mA, 2MHz Synchronous Buck Regulator, Fixed 1.2V or Regulated 0.8-4.5V Output, PWM/PFM, TSOT-25
+K buck pwm pfm regulator switching
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22042B.pdf
+$ENDCMP
+#
+$CMP MCP1603LT-150IOS
+D 2.7-5.5Vin, 500mA, 2MHz Synchronous Buck Regulator, Fixed 1.5V or Regulated 0.8-4.5V Output, PWM/PFM, TSOT-25
+K buck pwm pfm regulator switching
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22042B.pdf
+$ENDCMP
+#
+$CMP MCP1603LT-180IOS
+D 2.7-5.5Vin, 500mA, 2MHz Synchronous Buck Regulator, Fixed 1.8V or Regulated 0.8-4.5V Output, PWM/PFM, TSOT-25
+K buck pwm pfm regulator switching
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22042B.pdf
+$ENDCMP
+#
+$CMP MCP1603LT-250IOS
+D 2.7-5.5Vin, 500mA, 2MHz Synchronous Buck Regulator, Fixed 2.5V or Regulated 0.8-4.5V Output, PWM/PFM, TSOT-25
+K buck pwm pfm regulator switching
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22042B.pdf
+$ENDCMP
+#
+$CMP MCP1603LT-330IOS
+D 2.7-5.5Vin, 500mA, 2MHz Synchronous Buck Regulator, Fixed 3.3V or Regulated 0.8-4.5V Output, PWM/PFM, TSOT-25
+K buck pwm pfm regulator switching
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22042B.pdf
+$ENDCMP
+#
+$CMP MCP1603LT-ADJIOS
+D 2.7-5.5Vin, 500mA, 2MHz Synchronous Buck Regulator, Regulated 0.8-4.5V Output, PWM/PFM, TSOT-25
+K buck pwm pfm regulator switching
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22042B.pdf
+$ENDCMP
+#
 $CMP MCP16301
 D 1A, 4.0 to 30V Input, High Voltage Input integrated switch step-down regulator, SOT-23-6
 K switching buck converter power-supply voltage regulator
